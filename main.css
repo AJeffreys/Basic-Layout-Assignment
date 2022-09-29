@@ -7,7 +7,7 @@ body{background-image: url("images/halloweenbackground.png"); background-repeat:
 #container{
 	width:700px;
 	height:450px;
-	background-color:rgba(4,4,4,0.92);
+	background-color:rgba(0,0,0,0.88);
 	margin:0 auto}
 
 header{
