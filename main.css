@@ -6,7 +6,7 @@ body{background-image: url("images/halloweenbackground.png"); background-repeat:
 
 #container{
 	width:700px;
-	height:300px;
+	height:450px;
 	background-color:rgba(83,83,83,0.55);
 	margin:0 auto}
 
@@ -38,3 +38,7 @@ footer{
 	height:25px;
 	width:100%;
 	clear:both}
+
+articleSmall{
+	padding: 10px 10px 10px 10px;
+}
