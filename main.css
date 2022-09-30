@@ -26,16 +26,16 @@ nav{
 
 aside{
 	height:500px;
-	width:200px;
-	margin-right:200px;
+	width:10px;
+	margin-right:10px;
 	margin-bottom:10px;
 	float:left;}
 
 main{
 	width:500px;
-	height:255px;
-	margin-left: 500px;
-	margin-right: 500px;
+	height:385px;
+	margin-left: 10px;
+	margin-right: 10px;
 	float:right;
 	}
 
