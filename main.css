@@ -2,7 +2,7 @@
 /* CSS Document */
 *{box-sizing:border-box;}
 
-body{background: url("images/halloweenbackground.png"); background-repeat: no-repeat; background-size:cover; background-position: center}
+body{background: url("images/HalloweenSkull.jpg"); background-repeat: no-repeat; background-size:cover; background-position: center}
 
 #container{
 	width:100%;
