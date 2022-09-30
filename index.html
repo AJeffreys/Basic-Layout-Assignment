@@ -12,7 +12,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap" rel="stylesheet"> 
-
+<style>
+p {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+</style>
 </head>
 	<div id="container">
 		<header style="font-size: 64px; background-color: rgba(0,0,0,0.88)"><center>Countdown to Halloween</center></header>
@@ -20,10 +26,29 @@
 		<aside></aside>
 		<section id="main">
 			
+<p id="countdown"></p>
+<script>
+var countDownDate = new Date("oct 31, 2022 00:00:00").getTime();
+var x = setInterval(function() {
+var now = new Date().getTime();
+var distance = countDownDate - now;
+var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+document.getElementById("demo").innerHTML = days + "days " + hours + "hours "+ minutes + "minutes " + seconds + "seconds ";
+if (distance < 0) {
+clearInterval(x);
+document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+			
 		</section>
 		<footer><b>click &#129411; for Thanksgiving countdown. Click &#127876; for Christmas countdown </b></footer>
 	</div>
 
 <body>
+	
 </body>
 </html>

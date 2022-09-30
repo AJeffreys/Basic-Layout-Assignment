@@ -31,10 +31,17 @@ aside{
 	margin-bottom:10px;
 	float:left;}
 
-#main{
+main{
 	width:520px;
 	height:775px;
-	float:left;}
+	float:left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	
+	}
 
 footer{
 	padding: 10px 10px 0px 10px;
@@ -48,4 +55,8 @@ articleSmall{
 	padding: 10px 10px 10px 10px;
 }
 
+p {
+  text-align: center;
+  font-size: 60px;
+}
 
