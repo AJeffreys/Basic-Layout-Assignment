@@ -25,6 +25,7 @@ nav{
 	}
 
 aside{
+	background-color: aliceblue;
 	height:775px;
 	width:200px;
 	margin-right:200px;
@@ -32,17 +33,12 @@ aside{
 	float:left;}
 
 main{
+	background-color:aqua;
 	width:100px;
 	height:775px;
 	margin-left: 100px;
 	margin-right: 100px;
-	float:left;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	flex-direction: row;
-	
+	float:right;
 	}
 
 footer{
