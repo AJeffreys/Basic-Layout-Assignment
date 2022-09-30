@@ -28,8 +28,8 @@ p {
 		<aside></aside>
 		<section id="main">
 		<p id="countdown"></p>
-
-<script>
+<main>
+<center><script>
 var countDownDate = new Date("oct 31, 2022 00:00:01").getTime();
 var x = setInterval(function() {
 var now = new Date().getTime();
@@ -41,7 +41,8 @@ var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 document.getElementById("countdown").innerHTML = days + "Days " + hours + "Hours " + minutes + "Minutes " + seconds + "Seconds ";
 if (distance < 0) { clearInterval(x); document.getElementById("countdown").innerHTML = "EXPIRED";}
 }, 1000);
-</script>
+</script></center>
+</main>
 	
 		</section>
 		<footer><b>click &#129411; for Thanksgiving countdown. Click &#127876; for Christmas countdown<br>&copyAmanda Jeffreys </b>

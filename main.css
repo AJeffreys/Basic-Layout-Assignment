@@ -25,19 +25,17 @@ nav{
 	}
 
 aside{
-	background-color: aliceblue;
-	height:775px;
+	height:500px;
 	width:200px;
 	margin-right:200px;
 	margin-bottom:10px;
 	float:left;}
 
 main{
-	background-color:aqua;
 	width:100px;
 	height:775px;
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 500px;
+	margin-right: 500px;
 	float:right;
 	}
 
