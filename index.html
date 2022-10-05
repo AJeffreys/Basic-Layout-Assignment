@@ -5,30 +5,16 @@
 <title>Basic Layout Assignment</title>
 	<!--Link to CSS-->
 <link href="main.css" rel="stylesheet" type="text/css">
-	<!--Link to Text in Header-->
+	<!--Link my Text-->
 <link rel="stylesheet" href="https://use.typekit.net/kma6bnj.css">
 </head>
 <body>
 	<div id="container">
 		<header><h1>Header</h1></header>
 		<nav><h3>Nav Bar</h3></nav>
-		<article class="left">
-			<script>
-					var countDownDate = new Date("oct 31, 2022 00:00:00").getTime();
-					var x = setInterval(function() {
-					var now = new Date().getTime();
-					var distance = countDownDate - now;
-					var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-					var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-					var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-					var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-					document.getElementById("countdown").innerHTML = days + "Days " + hours + "Hours " + minutes + "Minutes " + seconds + "Seconds ";
-					if (distance < 0) { clearInterval(x); document.getElementById("countdown").innerHTML = "EXPIRED";}
-					}, 1000);
-					</script>
-</article>
-		<article class="right">Right</article>
-		<footer>Footer</footer>
+		<article class="left" style="font-size:100px">Left &#11013 </article>
+		<article class="right" style="font-size:100px">&#10145 Right</article>
+		<footer>&copy Amanda Jeffreys</footer>
 	
 	
 	
